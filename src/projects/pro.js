@@ -15,7 +15,7 @@ const dataProjects = [
         "desc": "Github link",
         "link": "https://github.com/AkmalbekDEV/devs-community",
         "status": "cursor-pointer",
-        "url": "https://devs-community-org.vercel.app"
+        "url": "https://devs-community-io.vercel.app"
     },
 ]
 

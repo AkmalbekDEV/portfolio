@@ -20,11 +20,11 @@ const dataProjects = [
     {
         "id": 3,
         "name": "English With Begov",
-        "image": "https://www.google.com/gasearch?q=education%20website&source=sh/x/gs/m2/5#vhid=i69Y6WfWSK_9PM&vssid=mosaic",
+        "image": "https://s3.envato.com/files/374101858/00-preview.__large_preview.jpg",
         "desc": "Github link",
         "link": "https://github.com/AkmalbekDEV/english-with-begov",
         "status": "cursor-pointer",
-        "url": "https://english-with-begov.vercel.app"
+        "url": "https://begov.vercel.app"
     },
 ]
 

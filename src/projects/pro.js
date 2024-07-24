@@ -17,6 +17,15 @@ const dataProjects = [
         "status": "cursor-pointer",
         "url": "https://devs-community-io.vercel.app"
     },
+    {
+        "id": 3,
+        "name": "English With Begov",
+        "image": "https://wpamelia.com/wp-content/uploads/2019/01/Screenshot_187.jpg",
+        "desc": "Github link",
+        "link": "https://github.com/AkmalbekDEV/english-with-begov",
+        "status": "cursor-pointer",
+        "url": "https://english-with-begov.vercel.app"
+    },
 ]
 
 export default dataProjects

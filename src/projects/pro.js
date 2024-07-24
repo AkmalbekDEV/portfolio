@@ -20,7 +20,7 @@ const dataProjects = [
     {
         "id": 3,
         "name": "English With Begov",
-        "image": "https://wpamelia.com/wp-content/uploads/2019/01/Screenshot_187.jpg",
+        "image": "https://www.google.com/gasearch?q=education%20website&source=sh/x/gs/m2/5#vhid=i69Y6WfWSK_9PM&vssid=mosaic",
         "desc": "Github link",
         "link": "https://github.com/AkmalbekDEV/english-with-begov",
         "status": "cursor-pointer",

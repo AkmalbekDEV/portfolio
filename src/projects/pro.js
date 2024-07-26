@@ -24,7 +24,7 @@ const dataProjects = [
         "desc": "Github link",
         "link": "https://github.com/AkmalbekDEV/english-with-begov",
         "status": "cursor-pointer",
-        "url": "https://begov.vercel.app"
+        "url": "https://www.begov.uz"
     },
 ]
 

@@ -21,8 +21,8 @@ const Navbar = () => {
 
     return (
         <div className='py-3 bg-[#170550] fixed w-full top-0 left-0 shadow-md'>
-            <div className='max-w-[1250px] mx-auto max-lg:px-10'>
-                <div className='flex items-center justify-between max-sm:px-5'>
+            <div className='max-w-[1250px] mx-auto max-lg:px-7'>
+                <div className='flex items-center justify-between'>
                     <div className='flex items-center gap-1'>
                         <img src={Logo} alt="" className='w-20' />
                         <div className='grid'>

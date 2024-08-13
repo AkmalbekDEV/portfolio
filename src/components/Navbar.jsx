@@ -21,7 +21,7 @@ const Navbar = () => {
 
     return (
         <div className='py-3 bg-[#170550] fixed w-full top-0 left-0 shadow-md'>
-            <div className='max-w-[1250px] mx-auto'>
+            <div className='max-w-[1250px] mx-auto max-lg:px-10'>
                 <div className='flex items-center justify-between max-sm:px-5'>
                     <div className='flex items-center gap-1'>
                         <img src={Logo} alt="" className='w-20' />
@@ -30,7 +30,7 @@ const Navbar = () => {
                             <h1 className='font-thin text-[11px] tracking-widest text-white'>FRONTEND DEV</h1>
                         </div>
                     </div>
-                    <nav className='flex items-center gap-7 max-sm:hidden'>
+                    <nav className='flex items-center gap-7 max-lg:hidden'>
                         <a href="#hero" className='transition font-medium text-xl text-white hover:text-[#F86F03]'>Home</a>
                         <a href="#about" className='transition font-medium text-xl text-white hover:text-[#F86F03]'>About Me</a>
                         <a href="#services" className='transition font-medium text-xl text-white hover:text-[#F86F03]'>Services</a>
@@ -38,8 +38,8 @@ const Navbar = () => {
                         <a href="#projects" className='transition font-medium text-xl text-white hover:text-[#F86F03]'>Projects</a>
                         <a href="#contact" className='transition font-medium text-xl text-white hover:text-[#F86F03]'>Contact</a>
                     </nav>
-                    <a href='#contact' className='cursor-pointer max-sm:hidden px-10 py-2 rounded-full bg-white text-[#170550] font-medium hover:shadow-md hover:shadow-white active:bg-gray-200 transition-all'>Hire me</a>
-                    <div className='hidden max-sm:block'>
+                    <a href='#contact' className='cursor-pointer max-lg:hidden px-10 py-2 rounded-full bg-white text-[#170550] font-medium hover:shadow-md hover:shadow-white active:bg-gray-200 transition-all'>Hire me</a>
+                    <div className='hidden max-lg:block'>
                         <BiMenu size={40} color='white' onClick={onOpen} className='cursor-pointer' />
                         <Drawer
                             isOpen={isOpen}
